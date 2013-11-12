@@ -14,7 +14,7 @@ window.SocialShareButton =
       when "email"
         location.href = "mailto:?to=&subject=#{title}&body=#{url}"
       when "weibo"
-        SocialShareButton.openUrl("http://service.weibo.com/share/share.php?url=#{url}&type=3&appkey=2908328200&pic=#{img}&title=#{title}")
+        SocialShareButton.openUrl("http://service.weibo.com/share/share.php?url=#{url}&type=3&appkey=1534038013&pic=#{img}&title=#{title}")
       when "twitter"
         SocialShareButton.openUrl("https://twitter.com/home?status=#{title}: #{url}")
       when "douban"
